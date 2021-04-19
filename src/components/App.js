@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from './Header';
+import LeftPanel from './LeftPanel/LeftPanel';
 // import {
 //   Grid,
 //   Form,
@@ -17,6 +18,7 @@ function App() {
     <>
       <Header />
       <hr/>
+      <LeftPanel />
       
     </>
   );
