@@ -17,15 +17,15 @@ import "./App.css";
 function App() {
   return (
     <>
+    <Container fluid >
     <Header /> 
     <hr />
-    <Container>
       <Row>
-        <Col>
+        <Col >
           <LeftPanel />
         </Col>
 
-        <Col>
+        <Col lg={7}>
           <CenterPanel />
         </Col>
       </Row>

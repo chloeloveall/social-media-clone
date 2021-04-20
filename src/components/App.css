@@ -1,8 +1,11 @@
 .overlayImg {
-  position: absolute;
-  margin-top: 130px;
-  width: 50%;
-  border-radius: 75%;
+  /* position: absolute; */
+  /* margin-top: 130px; */
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -87.5px;
+  margin-left: 20px;
 }
-
-

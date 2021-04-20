@@ -3,7 +3,7 @@ import { InputGroup, FormControl } from 'react-bootstrap';
 
 function Status () {
   return (
-    <InputGroup size="lg">
+    <InputGroup>
       <InputGroup.Append>
         <InputGroup.Text id="btnGroupAddon"></InputGroup.Text>
       </InputGroup.Append>

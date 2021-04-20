@@ -7,7 +7,7 @@ import './../App.css';
 function UserHeader() {
   return (
     <>
-      <Card style={{ width: "18rem" }}>
+      <Card>
         <Card.Img variant="top" src={burd} />
         <Card.Img className="overlayImg" src={berd} />
         <Card.Body>
