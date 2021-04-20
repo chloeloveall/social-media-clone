@@ -1,7 +1,8 @@
 import React from "react";
-
+import { Container, Row, Col } from 'react-bootstrap';
 import Header from './Header';
 import LeftPanel from './LeftPanel/LeftPanel';
+import CenterPanel from './CenterPanel/CenterPanel';
 // import {
 //   Grid,
 //   Form,
@@ -16,10 +17,19 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Header />
-      <hr/>
-      <LeftPanel />
-      
+    <Header /> 
+    <hr />
+    <Container>
+      <Row>
+        <Col>
+          <LeftPanel />
+        </Col>
+
+        <Col>
+          <CenterPanel />
+        </Col>
+      </Row>
+    </Container>      
     </>
   );
 }

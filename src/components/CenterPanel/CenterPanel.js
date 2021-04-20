@@ -1,11 +1,15 @@
 import React from 'react';
-import { Feed } from 'semantic-ui-react';
+import Status from './Status';
+import TweetManager from './TweetManager';
+import { Card } from 'react-bootstrap';
 
 function CenterPanel () {
   return (
     <>
-      <StatusUpdate/>
-      <FeedManager/>
+      <Card style={{ width: "30rem" }}>
+        <Status/>
+        <TweetManager/>
+      </Card>
     </>
   )
 }
