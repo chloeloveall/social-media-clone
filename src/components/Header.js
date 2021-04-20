@@ -29,23 +29,24 @@ function Header() {
           Messages
         </Menu.Item>
 
-      <Menu.Item textAlign='right'>
-        <Input
-          // action={{ color: 'blue', content: 'Search' }}
-          icon='search'
-          iconPosition='right'
-          placeholder='Search'
-        />
-      </Menu.Item>
+      <Menu.Menu position='right'>
+        <Menu.Item>
+          <Input
+            // action={{ color: 'blue', content: 'Search' }}
+            icon='search'
+            iconPosition='right'
+            placeholder='Search'
+          />
+        </Menu.Item>
 
         <Menu.Item
           name='tweet'
-          textAlign='right'
           // active={activeItem === 'tweet'}
           // onClick={this.handleItemClick}
         >
           Tweet
         </Menu.Item>
+      </Menu.Menu>
       </Menu>
       {/* <ButtonToolbar className="justify-content-between">
         <ButtonGroup size="lg" className="mr-2">
