@@ -1,8 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
-import Header from './Header';
+import Header from './Header/Header';
 import LeftPanel from './LeftPanel/LeftPanel';
 import CenterPanel from './CenterPanel/CenterPanel';
+import RightPanel from './RightPanel/RightPanel';
+import "./App.css";
+
 // import {
 //   Grid,
 //   Form,
@@ -12,7 +15,6 @@ import CenterPanel from './CenterPanel/CenterPanel';
 //   Message,
 //   Icon,
 // } from "semantic-ui-react";
-import "./App.css";
 
 function App() {
   return (
@@ -21,12 +23,16 @@ function App() {
     <Header /> 
     <hr />
       <Row>
-        <Col >
+        <Col lg={3}>
           <LeftPanel />
         </Col>
 
-        <Col lg={7}>
+        <Col lg={6}>
           <CenterPanel />
+        </Col>
+
+        <Col lg={3}>
+          <RightPanel />
         </Col>
       </Row>
     </Container>      

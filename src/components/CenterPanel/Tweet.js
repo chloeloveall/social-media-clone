@@ -11,10 +11,10 @@ function Tweet({
     <>
       <Grid container columns={2}>
         <Grid.Row>
-          <Grid.Column width={3}>
+          <Grid.Column width={4}>
             <Image className="thumbNail" src={thumbNail} alt=''/>
           </Grid.Column>
-          <Grid.Column width={13}>
+          <Grid.Column width={12}>
             <Grid.Row>
               <h3>{user}</h3>
             </Grid.Row>

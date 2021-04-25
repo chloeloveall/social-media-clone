@@ -7,7 +7,7 @@ function CenterPanel () {
   return (
     <>
       <Card>
-        <Status/>
+        <Status />
         <TweetManager/>
       </Card>
     </>

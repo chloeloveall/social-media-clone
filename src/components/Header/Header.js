@@ -1,33 +1,33 @@
 import React from 'react';
 import { ButtonToolbar, Button, ButtonGroup, InputGroup, FormControl } from 'react-bootstrap';
-import { Icon, Menu, Segment, Input } from 'semantic-ui-react';
+import { Menu, Segment, Input } from 'semantic-ui-react';
 
 function Header() {
   return (
     <>
-    <Menu stackable>
-        <Menu.Item
-          // active={activeItem === 'home'}
-          // onClick={this.handleItemClick}
-        >
-          Home
-        </Menu.Item>
+    <Menu stackable className='header-style'>
+      <Menu.Item
+        // active={activeItem === 'home'}
+        // onClick={this.handleItemClick}
+      >
+        Home
+      </Menu.Item>
 
-        <Menu.Item
-          name='notifications'
-          // active={activeItem === 'notifications'}
-          // onClick={this.handleItemClick}
-        >
-          Notifications
-        </Menu.Item>
+      <Menu.Item
+        name='notifications'
+        // active={activeItem === 'notifications'}
+        // onClick={this.handleItemClick}
+      >
+        Notifications
+      </Menu.Item>
 
-        <Menu.Item
-          name='messages'
-          // active={activeItem === 'messages'}
-          // onClick={this.handleItemClick}
-        >
-          Messages
-        </Menu.Item>
+      <Menu.Item
+        name='messages'
+        // active={activeItem === 'messages'}
+        // onClick={this.handleItemClick}
+      >
+        Messages
+      </Menu.Item>
 
       <Menu.Menu position='right'>
         <Menu.Item>
@@ -41,6 +41,7 @@ function Header() {
 
         <Menu.Item
           name='tweet'
+          className='replace-primary'
           // active={activeItem === 'tweet'}
           // onClick={this.handleItemClick}
         >
